@@ -89,7 +89,6 @@ input {
   padding: 10px;
 
   img {
-    border: solid black 2px;
     width: 325px;
     height: 225px;
     border-radius: 10px 10px 0 0 ;
@@ -130,7 +129,7 @@ input {
 }
 .text2{
   height: 100%;
-  font-size: x-large;
+  font-size: xx-large;
   text-align: justify;
   display: flex;
   flex-direction:column;
@@ -141,6 +140,7 @@ input {
   justify-content: center;
 }
 .span{
+  font-size: x-large;
   font-size: 20px;
   margin-top: 5px;
 }
@@ -152,10 +152,9 @@ input {
   img{
   border: none;
   border-radius: 0 0 10px 10px;
-  border: solid rgb(0, 0, 0) 2px;
   &:hover{
     transition: 0.5s;
-    border: solid #027bfd 2px;
+    cursor: pointer;
   }
 
   }
@@ -352,7 +351,9 @@ nav {
 
 
 .modal {
-  display: none; /* Esconde o modal por padrão */position: fixed;
+  display: none; /* Esconde o modal por padrão */
+  position: fixed;
+  
   top: 0;
   left: 0;
   width: 100%;
@@ -361,6 +362,7 @@ nav {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+
 }
 .modal-content {
   background-color: #fff;
@@ -372,6 +374,7 @@ nav {
   object-fit: contain;
   justify-content: center;
   align-items: center;
+
   img{
     width: 120%;
     height: 120%;

@@ -91,7 +91,6 @@ input {
   padding: 10px;
 }
 .imagem img {
-  border: solid black 2px;
   width: 325px;
   height: 225px;
   border-radius: 10px 10px 0 0;
@@ -134,7 +133,7 @@ input {
 
 .text2 {
   height: 100%;
-  font-size: x-large;
+  font-size: xx-large;
   text-align: justify;
   display: flex;
   flex-direction: column;
@@ -146,6 +145,7 @@ input {
 }
 
 .span {
+  font-size: x-large;
   font-size: 20px;
   margin-top: 5px;
 }
@@ -158,11 +158,10 @@ input {
 .planta img {
   border: none;
   border-radius: 0 0 10px 10px;
-  border: solid rgb(0, 0, 0) 2px;
 }
 .planta img:hover {
   transition: 0.5s;
-  border: solid #027bfd 2px;
+  cursor: pointer;
 }
 
 .conteudo {
